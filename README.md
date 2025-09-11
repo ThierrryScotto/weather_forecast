@@ -51,28 +51,29 @@ Ruby on Rails application to check weather forecasts using US ZIP codes or addre
 Below are some screenshots showing the API results in the application:
 
 ## Home page
-![Weather for 10001](docs/images/index_page.png)
+<img width="680" height="293" alt="index_page" src="https://github.com/user-attachments/assets/ddc31dd9-7afb-4b74-a6be-31ceffa155c8" />
 
 ### Success case with zip code 10001
-![Weather for 10001](docs/images/success_screen.png)
+<img width="670" height="553" alt="success_screen" src="https://github.com/user-attachments/assets/3792a6fe-8dc4-4820-bb04-60daf054d77f" />
 
-backend log
-![Weather for 10001](docs/images/success_screen_logs.png)
+<h6>backend log</h6>
+
+<img width="635" height="34" alt="success_screen_logs" src="https://github.com/user-attachments/assets/f22aabaf-e695-4f4c-8775-f9a657abaf3d" />
 
 ### Success case with zip code 10001 using cache
-![Weather for 90210](docs/images/cache_success_screen.png)
+<img width="665" height="587" alt="cache success screen" src="https://github.com/user-attachments/assets/b3f71a98-4db4-431d-b1aa-eebe7ac4d01a" />
 
 ### Error case with an invalid ZIP code 100012
-![Weather for Los Angeles](docs/images/error_screen.png)
+<img width="673" height="349" alt="error_screen" src="https://github.com/user-attachments/assets/a1320d77-c197-43ad-a125-9415862531fc" />
 
-backend log
-![Weather for Los Angeles](docs/images/error_screen_logs.png)
+<h6>backend log</h6>
+<img width="776" height="58" alt="error_screen_logs" src="https://github.com/user-attachments/assets/cc0d5891-2c6f-44d2-be5a-982d69bfbf3d" />
 
 ### Error case with a connection error to the OpenWeather API
-![Weather for Los Angeles](docs/images/error_screen_api_key_missing.png)
+<img width="666" height="344" alt="error_screen_api_key_missing" src="https://github.com/user-attachments/assets/99c02e4a-ff38-4f09-a3e1-81e0c13e82d4" />
 
-backend log
-![Weather for Los Angeles](docs/images/error_screen_logs_api_key_missing.PNG)
+<h6>backend log</h6>
+<img width="1082" height="63" alt="error_screen_logs_api_key_missing" src="https://github.com/user-attachments/assets/cac19cc7-fc57-408d-acd0-b66416395bb2" />
 
 ## Notes
 
