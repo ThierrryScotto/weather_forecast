@@ -67,7 +67,7 @@ Below are some screenshots showing the API results in the application:
 <img width="673" height="349" alt="error_screen" src="https://github.com/user-attachments/assets/a1320d77-c197-43ad-a125-9415862531fc" />
 
 <h6>backend log</h6>
-<img width="776" height="58" alt="error_screen_logs" src="https://github.com/user-attachments/assets/cc0d5891-2c6f-44d2-be5a-982d69bfbf3d" />
+<img width="600" height="48" alt="error_screen_logs" src="https://github.com/user-attachments/assets/680803b1-2749-49cb-b62e-e1823d95935e" />
 
 ### Error case with a connection error to the OpenWeather API
 <img width="666" height="344" alt="error_screen_api_key_missing" src="https://github.com/user-attachments/assets/99c02e4a-ff38-4f09-a3e1-81e0c13e82d4" />
