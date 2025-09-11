@@ -1,6 +1,14 @@
 Geocoder.configure(
-  lookup: :nominatim,                 # grátis (OSM) — respeite a política de uso do Nominatim
-  timeout: 3,
-  units: :km,
-  http_headers: { "User-Agent" => "WeatherAppRails/1.0 (contato@exemplo.com)" }
+  # Nominatim é o padrão para endereços; sem chave
+  lookup: :nominatim,
+  # Exigência do Nominatim: identificar o app com um User-Agent válido
+  http_headers: {
+    "User-Agent" => ENV.fetch("GEOCODER_USER_AGENT") {
+      "weather_app/1.0 (contact: you@example.com)"
+    }
+  },
+  # Boas práticas
+  use_https: true,
+  timeout: 5,
+  units: :km
 )
