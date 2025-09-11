@@ -18,7 +18,6 @@ class ForecastController < ApplicationController
 
     raise "API key not found" unless api_key
 
-    # A linguagem da API foi alterada para 'en' (inglês) para corresponder à view
     url = "https://api.openweathermap.org/data/2.5/weather?q=#{ERB::Util.url_encode(address)}&appid=#{api_key}&units=metric&lang=en"
 
     begin
